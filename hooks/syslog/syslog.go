@@ -4,8 +4,8 @@ package logrus_syslog
 
 import (
 	"fmt"
+	syslog "github.com/RackSec/srslog"
 	"github.com/Sirupsen/logrus"
-	"log/syslog"
 	"os"
 )
 
